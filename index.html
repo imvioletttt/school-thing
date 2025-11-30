@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <title>Ievārījumu Receptes</title>
+    <style>
+        :root {
+            --header: #CFB1B7;
+            --background: #83858C;
+            --accent: #CFB1B7;
+            --text: #000000;
+        }
+
+        body {
+            font-family: 'JetBrains Mono', monospace;
+            margin: 0;
+            background: var(--background);
+            color: var(--text);
+        }
+
+        header {
+            background: var(--header);
+            color: var(--text);
+            padding: 25px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        nav {
+            background: var(--accent);
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        nav a {
+            color: var(--text);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            opacity: 0.7;
+        }
+
+        .container {
+            padding: 25px;
+        }
+
+        .recipe {
+            background: white;
+            border: 3px solid var(--accent);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 28px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .recipe img {
+            width: 500px;
+            height: 350;
+            border-radius: 10px;
+            border: 3px solid var(--accent);
+            flex-shrink: 0;
+        }
+
+        .recipe-content {
+            flex-grow: 1;
+        }
+
+        h2, h3 {
+            color: var(--text);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ievārījumu Receptes</h1>
+    <p>Vecmāmiņas ziemas krājumu izlase</p>
+</header>
+
+<nav>
+    <a href="#aboli">Āboli</a>
+    <a href="#janogas">Jāņogas</a>
+    <a href="#zemenes">Zemenes</a>
+    <a href="#kirsis">Ķirši</a>
+</nav>
+
+<div class="container">
+
+    <div class="recipe" id="aboli">
+        <div class="recipe-content">
+            <h2>Ābolu ievārījums ar kanēli</h2>
+
+            <h3>Sastāvdaļas:</h3>
+            <ul>
+                <li>1 kg ābolu</li>
+                <li>500 g cukura</li>
+                <li>1 tējk. kanēļa</li>
+                <li>½ citrona sula</li>
+            </ul>
+
+            <h3>Pagatavošana:</h3>
+            <ol>
+                <li>Nomizo un sagriez ābolus.</li>
+                <li>Sajauc ar cukuru un atstāj ievilkties.</li>
+                <li>Vāri ~30 min.</li>
+                <li>Pievieno kanēli un citrona sulu.</li>
+                <li>Pildi burkās.</li>
+            </ol>
+        </div>
+
+        <img src="/images/apple.jpg"
+    </div>
+
+    <div class="recipe" id="janogas">
+        <div class="recipe-content">
+            <h2>Sarkano jāņogu ievārījums</h2>
+
+            <h3>Sastāvdaļas:</h3>
+            <ul>
+                <li>1 kg jāņogu</li>
+                <li>800 g cukura</li>
+                <li>200 ml ūdens</li>
+            </ul>
+
+            <h3>Pagatavošana:</h3>
+            <ol>
+                <li>Noskalo ogas un attīri no ķekariem.</li>
+                <li>Vāri ar ūdeni 10 min.</li>
+                <li>Pievieno cukuru un vāri 20 min.</li>
+                <li>Pildi burkās.</li>
+            </ol>
+        </div>
+
+        <img src="/images/currant.jpg"
+    </div>
+
+    <div class="recipe" id="zemenes">
+        <div class="recipe-content">
+            <h2>Zemeņu ievārījums</h2>
+
+            <h3>Sastāvdaļas:</h3>
+            <ul>
+                <li>1 kg zemeņu</li>
+                <li>700 g cukura</li>
+                <li>1 vaniļas pāksts</li>
+            </ul>
+
+            <h3>Pagatavošana:</h3>
+            <ol>
+                <li>Saspaidi zemenes.</li>
+                <li>Sajauc ar cukuru un atstāj ievilkties.</li>
+                <li>Vāri 25–30 min.</li>
+                <li>Pievieno vaniļu.</li>
+                <li>Pildi burkās.</li>
+            </ol>
+        </div>
+
+        <img src="/images/fragaria.jpg"
+    </div>
+
+    <div class="recipe" id="kirsis">
+        <div class="recipe-content">
+            <h2>Ķiršu ievārījums</h2>
+
+            <h3>Sastāvdaļas:</h3>
+            <ul>
+                <li>1 kg ķiršu</li>
+                <li>600 g cukura</li>
+                <li>100 ml ūdens</li>
+            </ul>
+
+            <h3>Pagatavošana:</h3>
+            <ol>
+                <li>Noņem kauliņus.</li>
+                <li>Uzvāri ķiršus ar ūdeni.</li>
+                <li>Pievieno cukuru un vāri 35 min.</li>
+                <li>Pildi burkās.</li>
+            </ol>
+        </div>
+
+        <img src="/images/cherry.jpg"
+    </div>
+
+</div>
+
+</body>
+</html>
