@@ -1,3 +1,4 @@
+alert("JS WORKING");
 const sections = document.querySelectorAll(".recipe");
 const navLinks = document.querySelectorAll("nav a");
 
