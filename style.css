@@ -74,8 +74,8 @@ nav a.active {
     background: rgba(255,255,255,0.9);
     border: 2px solid var(--accent);
     border-radius: 16px;
-    padding: 20px;
-    margin-bottom: 90px;
+    padding: 30px;
+    margin-bottom: 180px;
 
     display: flex;
     gap: 20px;
